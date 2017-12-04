@@ -30,8 +30,8 @@ public class MainMenu {
 		if(selection == 1) g.drawString("> Play <", (Engine.width / 2) - 76, Engine.height - 150);
 		if(selection != 1) g.drawString("Play", (Engine.width / 2) - 40, Engine.height - 150);
 		
-		if(selection == 2) g.drawString("> Options <", (Engine.width / 2) - 103, Engine.height - 110);
-		if(selection != 2) g.drawString("Options", (Engine.width / 2) - 67, Engine.height - 110);
+		if(selection == 2) g.drawString("> Help <", (Engine.width / 2) - 76, Engine.height - 110);
+		if(selection != 2) g.drawString("Help", (Engine.width / 2) - 40, Engine.height - 110);
 		
 		if(selection == 3) g.drawString("> Quit <", (Engine.width / 2) - 76, Engine.height - 70);
 		if(selection != 3) g.drawString("Quit", (Engine.width / 2) - 40, Engine.height - 70);
